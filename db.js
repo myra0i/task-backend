@@ -6,7 +6,8 @@ const pool = new Pool({
     password: '0710682121',
     host: process.env.HOST,
     port: process.env.DBPORT,  
-    database:'postgres' 
+    database:'postgres' ,
+    sslmode:require
 })
 
 

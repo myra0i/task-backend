@@ -6,7 +6,7 @@ const pool = new Pool({
     password: 'TS5QUY1WOAsAFmKfe1p0VcVPfmvAC6w7',
     host: process.env.HOST,
     port: process.env.DBPORT,  
-    database:'todo' ,
+    database:'database_4umt' ,
     ssl:{
         rejectUnauthorized: false, 
       }
